@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# resolve gits tatus
+tatus=$1
+
+if tatus="tatus"; then
+    echo "***you typoed 'git status'!"
+    git status
+fi
